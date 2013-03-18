@@ -1,7 +1,11 @@
 SampleApp::Application.routes.draw do
   
 
+#get '/help' => 'static_pages#help'
+#get '/home' => 'static_pages#home'
 
+#get '/about' => 'static_pages#about'
+#get '/contact' => 'static_pages#contact'
 
 
 get "static_pages/home"
